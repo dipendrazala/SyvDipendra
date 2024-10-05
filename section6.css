@@ -1,0 +1,32 @@
+.section6 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.section6 h1 {
+    /* border: 2px solid green; */
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+
+}
+
+.section6 button {
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 2px 18px 2px 18px;
+    border: none;
+    height: 40px;
+}
+
+@media (max-width:800px) {
+    .section6 h1 {
+        min-width: 100%;
+    }
+}
